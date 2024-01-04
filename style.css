@@ -1,0 +1,43 @@
+body{
+    background: #cfcfcf;
+}
+.login {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border-style:ridge;
+
+}
+.login-header {
+background: #1877f2;
+color: #fff;
+text-align: center;
+padding: 14px;
+font-weight: normal;
+margin: 0;
+}
+form{
+    background: #ebebeb;
+    padding: 15px;
+}
+form p {
+    padding: 10px;
+    margin: 0;
+}
+form input {
+    width: 100%;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+form input[type="submit"] {
+    background: #1877f2;
+    font-size: .95em;
+    cursor: pointer;
+}
+form input[type="submit"]:focus {
+    background: #02568f;
+}
